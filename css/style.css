@@ -23,6 +23,23 @@ p {
 
 .result {
   padding: 60px 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card-deck.row {
+  display: contents;
+}
+
+.result .card {
+  margin: 0;
+  width: 100%;
+  color: #343a40;
+}
+
+.result {
+  padding: 60px 20px 20px;
 }
 
 .result a {
@@ -57,3 +74,4 @@ footer {
   background-color: #343a40;
   text-align: center;
 }
+
